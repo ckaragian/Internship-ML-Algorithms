@@ -78,7 +78,7 @@ def create_model():
 estimator = KerasRegressor(build_fn=create_model, epochs=10, batch_size=2, verbose=0)
 
 # checkpoint
-filepath="weights_bets_Newer.hdf5"
+filepath="weights_bets.hdf5"
 checkpoint = ModelCheckpoint(filepath, monitor='val_loss', verbose=1, save_best_only=True, save_weights_only=True, mode='auto')
 callbacks_list = [checkpoint]
 # Fit the model
