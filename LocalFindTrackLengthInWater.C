@@ -131,7 +131,7 @@ void LocalFindTrackLengthInWater()
    //sprintf(fname,"PMTLAPPDReco_743Runs_05202019.root");//,i);
    //sprintf(fname,"data/PMTLAPPDReco_All_06082019.root");
    //sprintf(fname,"/home/liliadrak/ANNIE/ntuples_Ereco/vtxreco-beamlikegridall-cut.root");
-   sprintf(fname,"/home/valas/Documents/beamlikemu/vtxreco-beamlikemrd.root");
+   sprintf(fname,"vtxreco-beamlikemrd.root");
    TFile *input=new TFile(fname,"READONLY");
    cout<<"input file: "<<fname<<endl;
    
