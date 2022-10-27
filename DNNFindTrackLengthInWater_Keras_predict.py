@@ -84,7 +84,7 @@ model.add(Dense(25, kernel_initializer='normal', activation='relu'))
 model.add(Dense(1, kernel_initializer='normal', activation='relu'))
 
 # load weights
-model.load_weights("weights_bets_Newer.hdf5")
+model.load_weights("weights_bets.hdf5")
 
 # Compile model
 model.compile(loss='mean_squared_error', optimizer='Adamax', metrics=['accuracy'])
