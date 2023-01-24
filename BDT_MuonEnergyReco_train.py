@@ -92,7 +92,7 @@ print('initial train shape: ',arr3_hi_E.shape) #," predict: ",test_data_trueKE_h
 ########### BDTG ############
 n_estimators=600
 params = {'n_estimators':n_estimators, 'max_depth': 20,
-          'learning_rate': 0.025, 'loss': 'lad'} 
+          'learning_rate': 0.025, 'loss': 'absolute_error'} 
 
 print("arr2_hi_E_n.shape: ",arr2_hi_E_n.shape)
 #--- select 70% of sample for training and 30% for testing:
