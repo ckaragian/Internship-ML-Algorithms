@@ -44,7 +44,7 @@ print( "--- opening file with input variables!")
 #--- events for training - MC events
 filein = open(str(infile))
 print("evts for training in: ",filein)
-Dataset=np.array(pd.read_csv(filein))
+Dataset=np.array(pd.read_csv(filein, index_col=0))
 np.random.shuffle(Dataset)#shuffling the data sample to avoid any bias in the training
 print(Dataset)
 features, lambdamax, labels, rest = np.split(Dataset,[2203,2204,2205],axis=1)
