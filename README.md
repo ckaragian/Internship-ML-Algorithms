@@ -1,3 +1,4 @@
 # Internship-ML-Algorithms
 
-These are some ML scripts that I worked with during my internship with [Evangelia Drakopoulou](https://github.com/edrakopo) at the ANNIE experiment that do the track length and energy reconstruction.
+These are some ML scripts that I worked with during my internship with [Evangelia Drakopoulou](https://github.com/edrakopo) at the ANNIE experiment that do the track length and energy reconstruction. In this
+branch I also include files that train the DNN using custom dropout layers that can also be used in inference mode in order to produce distributions for the output predictions. This will hopefully help with defining an uncertainty for our predictions. For more details on relative theory check these papers [Weight Uncertainty in Neural Networks](https://arxiv.org/abs/1505.05424), [Dropout as a Bayesian Approximation: Representing Model Uncertainty in Deep Learning](https://arxiv.org/abs/1506.02142) and [Hands-on Bayesian Neural Networks – A Tutorial for Deep Learning Users](https://arxiv.org/pdf/2007.06823.pdf).
